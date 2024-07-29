@@ -1,10 +1,9 @@
 spring:
   application:
-    name: notificationService
+    name: notification-service
 server:
   port: 6666
 eureka:
   client:
     service-url:
-			defaultZone: http://localhost:8761/eureka
-      
+      defaultZone: http://localhost:8761/eureka
