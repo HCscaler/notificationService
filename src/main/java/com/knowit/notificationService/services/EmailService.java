@@ -19,7 +19,7 @@ import com.knowit.notificationService.entities.EmailRequest;
 public class EmailService {
 
 	public String sendMail(EmailRequest emailRequest) {
-		
+		System.out.println("calling sendmail method ..........");
 		String host = "smtp.gmail.com";
 		String from = "maheshpbharati@coep.sveri.ac.in";
 		Properties properties = System.getProperties();
